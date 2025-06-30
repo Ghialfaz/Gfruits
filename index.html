@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Your Favorit Fruits</title>
+    <link rel="stylesheet" href="./assets/style/global.css">
+    <link rel="shortcut icon" href="./assets/img/Fruits.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="module" src="./component/js/script.js"></script>
+</head>
+<body class="font-roboto">
+    <nav class="sticky flex w-full top-0 h-20 z-[100] items-center justify-between bg-primary shadow-2xl">
+        <a href="#"><img class="w-[200px] h-[90px] block ml-auto mr-auto" src="./assets/img/Logo.png" alt="Gfruits"></a>
+        <ul class="flex list-none justify-center m-0 p-0 gap-5 text-holy no-underline">
+            <li class="relative mr-20 after:content-[''] after:absolute after:left-1/2 after:bottom-[-2px] after:w-0 after:h-0.5 after:transition-[width,left,transform] after:duration-300 after:bg-holy after:translate-x-[-50%] hover:after:w-full">
+                <a href="#Home">Home</a>
+            </li>
+            <li class="relative mr-20 after:content-[''] after:absolute after:left-1/2 after:bottom-[-2px] after:w-0 after:h-0.5 after:transition-[width,left,transform] after:duration-300 after:bg-holy after:translate-x-[-50%] hover:after:w-full">
+                <a href="#About-Us">About Us</a>
+            </li>
+            <li class="relative mr-20 after:content-[''] after:absolute after:left-1/2 after:bottom-[-2px] after:w-0 after:h-0.5 after:transition-[width,left,transform] after:duration-300 after:bg-holy after:translate-x-[-50%] hover:after:w-full">
+                <a href="#Product">Products</a>
+            </li>
+            <li class="relative mr-20 after:content-[''] after:absolute after:left-1/2 after:bottom-[-2px] after:w-0 after:h-0.5 after:transition-[width,left,transform] after:duration-300 after:bg-holy after:translate-x-[-50%] hover:after:w-full">
+                <a href="#Contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="scroll-mt-[100px] bg-home bg-cover w-full h-[680px] bg-center flex flex-col items-center justify-center" id="Home">
+        <p class="text-[5rem] font-bold text-holy mt-20 text-shadow-home">Search Your Favorit Fruits</p>
+        <button class="bg-primary h-[50px] mt-10 py-[10px] px-[30px] text-[16px] text-holy cursor-pointer uppercase hover:bg-secondary ring-4 ring-secondary shadow-xl" type="button">
+            <a href="">Products Catalogue</a>
+        </button>
+    </section>
+
+    <section class="w-full h-fit flex bg-burn justify-center">
+        <div class="flex flex-col h-fit items-center">
+            <p class="mt-14 mb-[1rem] text-5xl font-bold text-primary text-center">Our Service</p>
+            <img class="w-[350px] h-[50px]" src="./assets/img/Decoration.png" alt="image-decoration">
+            <p class="p-[1.2rem]">Bringing the freshness of nature and fruits to your daily life!</p>
+        </div>
+    </section>
+    <section class="bg-burn flex mt-0 w-auto h-[450px] justify-center">
+        <div class="flex h-fit w-[350px] p-5 ml-[15px] flex-col text-center items-center justify-center cursor-pointer bg-secondary shadow-3xl">
+            <img class="w-[200px] h-[200px]" src="./assets/img/Service.png" alt="Services">
+            <h2 class="font-bold">Responsive Online Services</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Possimus harum fuga expedita deserunt assumenda illo quaerat 
+                dolore amet accusantium sed?
+            </p>
+        </div>
+        <div class="flex h-fit w-[350px] p-5 ml-[15px] flex-col text-center items-center justify-center cursor-pointer bg-secondary shadow-3xl">
+            <img class="w-[200px] h-[200px]" src="./assets/img/Service.png" alt="Services">
+            <h2 class="font-bold">Responsive Online Services</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Possimus harum fuga expedita deserunt assumenda illo quaerat 
+                dolore amet accusantium sed?
+            </p>
+        </div>
+        <div class="flex h-fit w-[350px] p-5 ml-[15px] flex-col text-center items-center justify-center cursor-pointer bg-secondary shadow-3xl">
+            <img class="w-[200px] h-[200px]" src="./assets/img/Service.png" alt="Services">
+            <h2 class="font-bold">Responsive Online Services</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Possimus harum fuga expedita deserunt assumenda illo quaerat 
+                dolore amet accusantium sed?
+            </p>
+        </div>
+    </section>
+
+    <section id="Product" class="scroll-mt-[80px] w-full h-fit flex justify-center">
+        <div class="flex flex-col h-fit items-center">
+            <p class="mt-14 mb-[1rem] text-5xl font-bold text-primary text-center">Product</p>
+            <img class="w-[350px] h-[50px]" src="./assets/img/Decoration.png" alt="image-decoration">
+            <p class="p-[1.2rem]">Explore our wide selection of delicious fruits. Reach out for more information!</p>
+        </div>
+    </section>
+    <section class="flex gap-[2%] flex-nowrap items-stretch">
+        <div class="w-1/4 h-auto ml-[90px] flex flex-col">
+            <h1 class="uppercase text-[20px]">Product Category</h1>
+            <hr class="border-2 border-devil  my-1 opacity-100">
+            <div class="flex flex-col w-fit">
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Local Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Imported Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Organic Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Seasonal Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Fresh Cut Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Fruit Packages</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Rare Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Dried Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Citrus Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Berries</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Tropical Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Melons</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Exotic Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Juicing Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Snack Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">Low Sugar Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">High Fiber Fruits</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">For Kids</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">For Diet</a>
+                <a href="" class="mt-2 transition-all duration-300 ease-in-out hover:text-secondary hover:translate-x-5">For Juice & Smoothies</a>
+            </div>
+        </div>
+        <div class="flex-grow h-auto w-9/12">
+            <div class="flex gap-[35px] flex-wrap ml-0">
+                <div class="flex flex-col w-[250px] px-2 pt-3 pb-4">
+                    <a href="">
+                        <img class="w-[250px] h-[250px] object-cover" src="./assets/img/apple.webp" alt="apple">
+                    </a>
+                    <a class="w-full text-sm text-devil text-left break-words hover:underline" href="">
+                        Apple Indian - 100% Natural & Farm Fresh
+                    </a>
+                    <p class="text-sm text-left">Rp. 20000/kg</p>
+                </div>
+                <div class="flex flex-col w-[250px] px-2 pt-3 pb-4">
+                    <a href="">
+                        <img class="w-[250px] h-[250px] object-cover" src="./assets/img/apple.webp" alt="apple">
+                    </a>
+                    <a class="w-full text-sm text-devil text-left break-words hover:underline" href="">
+                        Apple Indian - 100% Natural & Farm Fresh
+                    </a>
+                    <p class="text-sm text-left">Rp. 20000/kg</p>
+                </div>
+                <div class="flex flex-col w-[250px] px-2 pt-3 pb-4">
+                    <a href="">
+                        <img class="w-[250px] h-[250px] object-cover" src="./assets/img/apple.webp" alt="apple">
+                    </a>
+                    <a class="w-full text-sm text-devil text-left break-words hover:underline" href="">
+                        Apple Indian - 100% Natural & Farm Fresh
+                    </a>
+                    <p class="text-sm text-left">Rp. 20000/kg</p>
+                </div>
+                <div class="flex flex-col w-[250px] px-2 pt-3 pb-4">
+                    <a href="">
+                        <img class="w-[250px] h-[250px] object-cover" src="./assets/img/apple.webp" alt="apple">
+                    </a>
+                    <a class="w-full text-sm text-devil text-left break-words hover:underline" href="">
+                        Apple Indian - 100% Natural & Farm Fresh
+                    </a>
+                    <p class="text-sm text-left">Rp. 20000/kg</p>
+                </div>
+                <div class="flex flex-col w-[250px] px-2 pt-3 pb-4">
+                    <a href="">
+                        <img class="w-[250px] h-[250px] object-cover" src="./assets/img/apple.webp" alt="apple">
+                    </a>
+                    <a class="w-full text-sm text-devil text-left break-words hover:underline" href="">
+                        Apple Indian - 100% Natural & Farm Fresh
+                    </a>
+                    <p class="text-sm text-left">Rp. 20000/kg</p>
+                </div>
+                <div class="flex flex-col w-[250px] px-2 pt-3 pb-4">
+                    <a href="">
+                        <img class="w-[250px] h-[250px] object-cover" src="./assets/img/apple.webp" alt="apple">
+                    </a>
+                    <a class="w-full text-sm text-devil text-left break-words hover:underline" href="">
+                        Apple Indian - 100% Natural & Farm Fresh
+                    </a>
+                    <p class="text-sm text-left">Rp. 20000/kg</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="scroll-mt-[80px] w-full h-[600px] flex bg-burn" id="About-Us">
+        <div class="flex w-[550px] ml-[85px] flex-col">
+            <p class="mt-14 mb-4 text-5xl font-bold text-primary">About Us</p>
+            <img class="w-[200px] h-[50px]" src="./assets/img/Decoration.png" alt="image-decoration">
+            <p class="text-xl text-justify">
+                Welcome to <strong>Gfruit – Find Your Favorite Fruit!</strong> Located in Kab. Tangerang, Banten, 
+                Gfruit is your trusted online fruit store, offering a wide variety of fresh, high-quality fruits to meet your daily needs. 
+                We are committed to providing the best selection, from local to imported and organic fruits, 
+                all delivered with excellent service. Founded and developed by Ghi, 
+                Gfruit is dedicated to making it easy for everyone to enjoy healthy and delicious fruits every day. 
+                Your satisfaction and health are our top priorities!
+            </p>
+            <button class="shadow-xl hover:bg-secondary bg-primary h-10 text-holy ring-4 ring-secondary mt-5 w-[130px] transform-none text-[15px]" type="button">
+                More Info
+            </button>
+        </div>
+        <div class="flex mt-[30px] ml-[50px] w-fit justify-center items-center">
+            <img class="w-[600px] h-[500px] shadow-3xl" src="./assets/img/About.png" alt="About Us">
+        </div>
+    </section>
+
+    <section class="w-full h-[580px] flex flex-col" id="Contact">
+        <div class="flex flex-col h-fit items-center">
+            <p class="mt-14 mb-[1rem] text-5xl font-bold text-primary text-center">Contact</p>
+            <img class="w-[350px] h-[50px]" src="./assets/img/Decoration.png" alt="image-decoration">
+        </div>
+        <div class="flex flex-col">
+            <div class="flex">
+            <div class="flex flex-col w-[500px] ml-[85px] mr-[60px] mt-5 text-xl text-justify">
+                <p>
+                    For any questions or potential collaborations, feel free to contact me via email. 
+                    You can also find me on various social media platforms.
+                </p>
+                <li>Email for phone contact</li>
+                <li>irgiapbas04@gmail.com</li>
+                <li>Banten, Indonesia</li>
+            </div>
+            <form class="w-[700px] ml-[85px] mt-[32px]" action="" method="post">
+                <input class="focus:outline-none focus:ring focus:ring-secondary focus:border-secondary p-1 w-[235px] h-[50px] ml-[30px] border border-secondary" type="text" placeholder="Your Name" required>
+                <input class="focus:outline-none focus:ring focus:ring-secondary focus:border-secondary p-1 w-[235px] h-[50px] ml-[30px] border border-secondary" type="email" placeholder="Your Email" required>
+                <textarea class="focus:outline-none focus:ring focus:ring-secondary focus:border-secondary w-[504px] p-1 ml-[30px] mt-5 h-[150px] border border-secondary" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <button class="ml-[35px] shadow-xl hover:bg-secondary bg-primary h-10 text-holy ring-4 ring-secondary mt-5 w-[130px] transform-none text-[15px]" type="button">
+                    Submit
+                </button>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-16 h-16 bg-secondary rounded-full flex fixed bottom-5 right-5 cursor-pointer">
+        <a href="" class="m-auto">
+            <img src="./assets/img/whatsapp.png" alt="whatsapp">
+        </a>
+    </div>
+
+    <footer class="w-full h-14 font-bold flex items-center justify-center uppercase text-xl bg-primary">
+        <small>
+            &#169;
+            <span class="text-holy">2025</span>
+            Ghialfaz. All rights reserved.
+        </small>
+    </footer>
+</body>
+</html>
