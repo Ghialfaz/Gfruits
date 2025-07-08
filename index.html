@@ -12,7 +12,12 @@
     <script type="module" src="./component/js/script.js"></script>
 </head>
 <body class="font-roboto">
-    <nav class="sticky flex w-full top-0 h-20 z-[100] items-center justify-between bg-primary shadow-2xl">
+    <div id="mobile-warning" class="hidden w-full h-auto fixed inset-0 z-50 flex flex-col items-center justify-center text-white shadow-2xl bg-red-500">
+        <h2 class="text-6xl font-bold uppercase mb-4">This page not Responsive</h2>
+        <p class="text-4xl uppercase">Please use desktop mode</p>
+    </div>
+
+    <nav class="hidden sticky md:flex w-full top-0 h-20 z-[100] items-center justify-between bg-primary shadow-2xl">
         <a href="#"><img class="w-[200px] h-[90px] block ml-auto mr-auto" src="./assets/img/Logo.png" alt="Gfruits"></a>
         <ul class="flex list-none justify-center m-0 p-0 gap-5 text-holy no-underline">
             <li class="nav-link">
@@ -230,5 +235,7 @@
             Ghialfaz. All rights reserved.
         </small>
     </footer>
+
+    <script src="./component/js/script.js"></script>
 </body>
 </html>
